@@ -14,7 +14,7 @@ plugin_package = "layerdisplay"
 plugin_name = "LayerDisplay"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.4.1"
+plugin_version = "0.4.1.1"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
@@ -27,7 +27,7 @@ plugin_author = "Matt Thompson"
 plugin_author_email = "chatrat12@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/chatrat12/layerdisplay"
+plugin_url = "https://github.com/ShohninDmitriy/layerdisplay"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"

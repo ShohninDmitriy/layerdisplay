@@ -9,6 +9,6 @@ def get_update_information(plugin):
 				user="chatrat12",
 				repo="LayerDisplay",
 
-				pip="https://github.com/chatrat12/layerdisplay/archive/{target_version}.zip"
+				pip="https://github.com/ShohninDmitriy/layerdisplay/archive/{target_version}.zip"
 			)
 		)
