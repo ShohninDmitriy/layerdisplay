@@ -71,7 +71,7 @@ class PrintJob:
 	def to_string(self):
 		if self._gcode_analyzer and self._gcode_analyzer.is_working():
 			file_pos = float(self._gcode_analyzer.get_current_file_position())
-			return "Analysing: %%%.1f" %  (file_pos / self.file_size * 100)
+			return "Анализ: %%%.1f" %  (file_pos / self.file_size * 100)
 		elif self.layer_change_info:
 			if self.printing:
 				return "%d / %d" % (self.current_layer + 1, self.get_layer_count())
