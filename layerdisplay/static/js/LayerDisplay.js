@@ -6,8 +6,8 @@ $(function () {
         self.onStartup = function () {
             var element = $("#state").find(".accordion-inner .progress");
             if (element.length) {
-                var text = gettext("Слой");
-                var tooltip = gettext("Это может быть неточно!");
+                var text = gettext("Layer");
+                var tooltip = gettext("Might be inaccurate!");
                 element.before(text + ": <strong title='" + tooltip + "' data-bind='text: layerString'></strong><br>");
             }
             self.retrieveData();
